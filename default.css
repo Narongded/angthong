@@ -1,0 +1,608 @@
+	html, body
+	{
+		height: 100%;
+		width: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #2651a8;
+		font-family: 'Kanit', sans-serif;
+		font-size: 1vw;
+		font-weight: 200;
+		color: #fff;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #ee0000;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin: 0em auto;
+		width: 100%;
+		
+	}
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+	
+	ul.actions
+	{
+	}
+	
+	ul.actions li
+	{
+		display: inline-block;
+	}
+
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		background: #2651a8;
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+		color: #FFF;
+	}
+		
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 33.33%;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+	.boxA,
+	.boxB,
+	.boxC,
+	p
+	{
+		font-size: 1.25vw;
+	}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+	.tbox1,
+	.tbox2
+	{
+		width: 50%;
+	}
+	
+	.tbox1
+	{
+		float: left;
+	}
+
+	.tbox2
+	{
+		float: right;
+	}
+
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 4em;
+	}
+	
+	.title h2
+	{
+		font-size: 3.5em;
+	}
+	
+	.title .byline
+	{
+		font-size: 3em;
+		color: white;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: #fff;
+		color: #111;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	#header-wrapper
+	{
+		background: url(images/sleep.jpg);
+		background-repeat: no-repeat;
+    	background-size: cover;
+		position: relative;
+		height: 100%;
+	}
+	
+/*********************************************************************************/
+/* Navbar                                                                        */
+/*********************************************************************************/
+
+	#header ul 
+	{
+	width: 100%;
+    list-style-type: none;
+	}
+
+	#header li {
+	    float: left;
+	}
+
+	#header li a {
+		font-size: 1.5em;
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+	}
+
+	#header li a:hover:not(.active) {
+    	background-color: #92D1FE;
+	}
+
+	#header .active {
+    	background-color: #0e309e;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 10em;
+		text-align: center;
+	}
+
+	#banner2
+	{
+		font-size: 2vw;
+		background: white;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#banner2 .title .byline
+	{
+		padding: 1em 1em 1em 1em;
+		font-size: 1.25vw;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#banner .title h2
+	{
+		font-size: 6em;
+	}
+
+	#banner2 .title h2
+	{
+		font-size: 1.7em;
+		text-align: center;
+		padding-top: 1em;
+		padding-bottom: 1em; 
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+	
+	.banner
+	{
+		margin-top: 5em;
+		margin-bottom: 5em;
+	}
+
+	#banner .title h2
+	{
+		margin-bottom: 25px;
+	}
+
+/*********************************************************************************/
+/* Welcome                                                                       */
+/*********************************************************************************/
+
+	#welcome
+	{
+		position: relative;
+		padding: 7em 0em 7em 0em;
+		background: #2651a8;
+		background-size: cover;
+		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 100%;
+		padding: 0px auto;
+		color: rgba(255,255,255,0.8);
+	}
+	
+	#welcome a
+	{
+		color: white;
+	}
+	
+	#welcome .button
+	{
+		background: #FFF;
+		color: #2651a8;
+	}
+
+/*********************************************************************************/
+/* Extra                                                                         */
+/*********************************************************************************/
+
+	#three-column
+	{
+		text-align: center;
+		color: rgba(0,0,0,0.6);
+	}
+
+	#three-column .fa
+	{
+		display: block;
+		padding: 1em 0em;
+		color: rgba(0,0,0,1);
+		font-size: 2em;
+	}
+	
+	#three-column .title h2
+	{
+		font-weight: bold;
+		color: rgba(0,0,0,0.8);
+	}
+
+	#three-column .title .byline
+	{
+		text-align: center;
+		color: rgba(0,0,0,.5);
+	}
+
+	#two-column
+	{
+		color: rgba(0,0,0,0.8);
+	}
+
+	#two-column .fa
+	{
+		display: block;
+		padding: 1em 0em;
+		color: black;
+		font-size: 2em;
+	}
+	
+	#two-column .title h2
+	{
+		font-weight: bold;
+		color: black;
+	}
+/*********************************************************************************/
+/*Image Responsive                                                               */
+/*********************************************************************************/
+
+	.boxA img
+	{
+		margin-top: 3em;
+		width: 50%;
+		height: 50%;
+		background: no-repeat;
+		background-size: contain;
+	}
+	.boxB img
+	{
+		margin-top: 3em;
+		width: 75%;
+		background: no-repeat;
+		background-size: contain;
+	}
+	.boxC img
+	{
+		margin-top: 3em;
+		width: 58%;
+		background: no-repeat;
+		background-size: contain;
+	}
+	.pic01 img{
+		width: 40%;
+		height: 50%;
+		position: relative;
+		margin :auto auto;
+		display: block;
+	}
+
+	.tbox1 img
+	{
+		width: 90%;
+		height: 90%;
+		background: no-repeat;
+		background-size: contain;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tbox2 img
+	{
+		width: 90%;
+		height: 90%;
+		background: no-repeat;
+		background-size: contain;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: coral;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  //background: #F45B69;
+}
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #F45B69 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #F45B69;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F00000;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+	
+	
